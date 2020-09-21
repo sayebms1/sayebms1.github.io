@@ -12,8 +12,8 @@
     <div class="grid-2">
         <div class="section-1">
             <i class="fas fa-code fa-5x white"></i>
-            <h2>FirstName LastName</h2>
-            <p>City,Country.</p>
+            <h2>Mohammad Sayeb</h2>
+            <p>Florida, USA.</p>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-linkedin"></i></a>
             <a href="#"><i class="fab fa-github"></i></a>
@@ -33,7 +33,8 @@
             <a href="#">Project 4</a>
             <a href="#">Project 5</a>
             <h2>Contact</h2>
-            <p>myEmail@email.com</p>
+            <p>sayebms1@ufl.edu</p>
+            <p>sayebms@gmail.com</p>
         </div>
     </div>
 </body>
