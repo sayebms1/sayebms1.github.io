@@ -90,6 +90,8 @@ a{
     padding-left: 10px;
 }
 img{
+    max-width: 90%;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
