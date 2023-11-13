@@ -1,0 +1,170 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Apply a box-sizing rule to all elements */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: radial-gradient(circle at top left, 
+                rgba(255, 255, 204, 0.3), /* light yellow, more pastel */
+                rgba(255, 182, 193, 0.3), /* soft pink, replacing red */
+                #A7C7E7 30%, /* light pastel blue */
+                #89B6E5 60%, /* slightly darker pastel blue */
+                #6FA4D6 80%, /* even darker pastel blue */
+                #5588C8 /* deepest pastel blue at the bottom */
+                ) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Header and navigation styles */
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+nav {
+    background: none;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.3); /* Black with 60% opacity */
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    color: #d9d9d9;
+    background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+}
+
+
+
+/* Main introduction area */
+.intro {
+    text-align: center; /* Center text */
+    margin: 0 auto; /* Center the div itself if it has a set width */
+    /* Add any additional styling as needed */
+}
+
+.intro h1 {
+
+
+    font-size: 4rem; /* Large font size for the big title */
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto 50px; /* Centering the text block */
+}
+
+/* Custom styles for the specific sections in the screenshot */
+.intro h1 span {
+    display: block; /* To ensure that "A Designer." falls to a new line */
+}
+
+/* Additional card styles for content sections based on the screenshot */
+.card {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.card h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+/* Your existing CSS, plus the styles for hiding/showing sections */
+.content-section {
+    display: none;
+}
+.active {
+    display: block;
+}
+
+/* Other styling */
+.active-nav {
+    background-color: #FFD700; /* Example: pastel yellow background for active link */
+    color: #000; /* Example: change text color if needed */
+    /* Add other styling as needed */
+}
+
+
+/* Responsive design adjustments */
+@media (min-width: 768px) {
+    .intro h1 {
+        font-size: 4rem;
+    }
+
+    .intro p {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        margin-right: 40px;
+    }
+}
+
+/* Footer styles, if needed */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.75rem;
+}

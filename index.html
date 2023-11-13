@@ -1,52 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>sayebms</title>
+    <!-- Head content: linking styles.css -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="grid-2">
-        <div clas="col-sm-6">
-            <div class="section-1">
-            <img src="./images/IMG_2826.JPEG" height = "350" class="col-xs-12 rounded-corners">
-                <!-- <i class="fas fa-code fa-5x white"></i> -->
-                <h2>Aaron M Sayeb</h2>
-                <p>New Jersey, USA.</p>
-                <a href="https://twitter.com/saebms1"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/mohammad-sayeb/"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/sayebms1"><i class="fab fa-github"></i></a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#play">Play</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="content-section active"> <!-- 'active' class added here -->
+            <div class="intro">
+                <h1>Hi. I'm Aaron.<br>Data and AI/ML scientist</h1>
+                <p>I'm passionate about science</p>
             </div>
-        </div>
-            <div class="col-sm-6">
-            <div class="section-2">
-            <!-- <img src="./images/IMG_0843.JPG" height = "200"> -->
-                <h2>About</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas sint et nihil iusto eius nostrum sit error, repellat optio quisquam! Magnam dolore iusto cumque. Nostrum error iste neque maiores.</p>
-                <h2>Experience</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem
-
-                <h2>Skills</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem obcaecati excepturi! Cupiditate eaque itaque magni voluptatibus neque nobis est dolor? Atque sunt minus ipsa asperiores. At.</p>
-                <h2>Projects</h2>
-                <a href="https://github.com/sayebms1/Particle_Image_Classification">Particle image classification</a>
-                <img src="./images/particle.JPEG" height = "350" class="col-xs-12 rounded-corners">
-                <a href="https://github.com/sayebms1/Strong_Lensing/blob/main/Mohammad_Strong_lensing.ipynb">Detecting anomaly in sgtrong gravitational lensing images </a>
-                <img src="./images/gravitational_lensing.JPEG" height = "350" class="col-xs-12 rounded-corners">
-                <a href="#">Project 3</a>
-                <a href="#">Project 4</a>
-                <a href="#">Project 5</a>
-                <h2>Contact</h2>
-                <p>sayebms-at-gmail-dot-com</p>
-            </div>
-            </div>
-        </div>
-    </div>
+            <h2>My Home</h2>
+            <p>Here's a collection of my recent home, showcasing my skills in design, UX, and front-end development.</p>
+            <!-- More detailed content, images, links, etc. -->
+        </section>
+        <section id="about" class="content-section">
+            <!-- About section content -->
+        </section>
+        <!-- More sections for Play and Contact -->
+    </main>
+    <footer>
+        <!-- Footer content -->
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
