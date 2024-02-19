@@ -7,6 +7,3 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-.footer-class { /* or #footer-id */
-    background-color: #f0f0f0; /* Light grey */
-  }
