@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pretraining an LLM from scratch, step by step." />
+    <title>LLM pretraining from scratch — Aaron Saeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=20260620c" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="site-header">
+        <a class="wordmark" href="about.html" aria-label="Aaron Saeb — go to About" title="About Aaron Saeb"><span aria-hidden="true">~/</span>Aaron Saeb<i aria-hidden="true">_</i></a>
+        <nav aria-label="Primary navigation"><a href="index.html">home</a><a aria-current="page" href="learning.html">learning</a><a href="about.html">about</a></nav>
+      </header>
+
+      <section class="intro learning-intro" id="top" aria-labelledby="page-title">
+        <p class="kicker">Learning / build log</p>
+        <h1 id="page-title">Pretraining an LLM from scratch.</h1>
+        <p class="lede">A practical, evolving guide to the full pipeline—from a raw corpus to a model you can evaluate, inspect, and improve.</p>
+        <p class="course-note">This is the companion path for notes, code, and decisions made while building in the open.</p>
+      </section>
+
+      <section class="curriculum" aria-labelledby="curriculum-title">
+        <div class="section-label"><h2 id="curriculum-title">The path</h2><span>06 modules</span></div>
+        <ol class="module-list">
+          <li id="foundations"><span>01</span><div><h3>Set the baseline</h3><p>Environment, minimal tooling, and the tiny model that keeps the feedback loop honest.</p></div><em>starting point</em></li>
+          <li id="data"><span>02</span><div><h3>Build the dataset</h3><p>Collection, filtering, deduplication, and the unglamorous details that shape the model.</p></div><em>data</em></li>
+          <li id="tokenizer"><span>03</span><div><h3>Train the tokenizer</h3><p>Vocabulary, compression, coverage, and how segmentation quietly changes everything downstream.</p></div><em>tokens</em></li>
+          <li id="transformer"><span>04</span><div><h3>Implement the transformer</h3><p>Embeddings, attention, residual streams, normalization, and a model small enough to reason about.</p></div><em>architecture</em></li>
+          <li id="training"><span>05</span><div><h3>Run the training loop</h3><p>Optimization, schedules, checkpoints, distributed training, and reading a loss curve with context.</p></div><em>training</em></li>
+          <li id="evals"><span>06</span><div><h3>Evaluate and iterate</h3><p>Baselines, capability checks, failure analysis, and deciding what the next experiment should be.</p></div><em>evals</em></li>
+        </ol>
+      </section>
+
+      <footer><span><b>exit 0</b> · © 2026</span><a href="#top">back to top ↑</a></footer>
+    </main>
+  </body>
+</html>
